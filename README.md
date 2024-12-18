@@ -10,8 +10,7 @@ Each node entry in the `nodes.json` file must include the following fields:
 
 - **`nodeURL`**: The URL where the node is hosted (e.g., `https://testnetv1.telestai.io`) and reachable by the public.
 - **`nodeName`**: A unique, user-friendly name for the node (e.g., `Frog World`).
-- **`nodeImg`**: A URL pointing to the node’s logo or representative image.
-  - The image must be hosted at the node’s URL.
+- **`nodeImg`**: A path to an image hosted in the `images` folder.
   - Ensure the image is appropriate and aligns with community standards. The node will be displayed on the Lascaux platform and subject to removal if it does not align with community standards.
 - **`nodeWallet`**: The Telestai wallet address associated with the node. **This may be used for future rewards!**
 - **`nodeDescription`** (Optional): A short description of the node’s purpose or the community behind it.
@@ -23,7 +22,7 @@ Each node entry in the `nodes.json` file must include the following fields:
 {
     "nodeURL": "https://example-node.telestai.io",
     "nodeName": "Frog World",
-    "nodeImg": "https://example-node.telestai.io/logo.png",
+    "nodeImg": "/images/FrogWorld.png",
     "nodeWallet": "TesExampleLQsowvYEYPXpSHkkapoTbVV7Xex",
     "nodeDescription": "Welcome to the swamp!"
 }
@@ -43,6 +42,7 @@ Each node entry in the `nodes.json` file must include the following fields:
    ```
 
 3. **Add Your Node**
+   - Add a logo to the `images` folder.
    - Edit the `nodes.json` file and add your node’s information following the example above.
 
 4. **Commit Your Changes**
@@ -60,7 +60,6 @@ Each node entry in the `nodes.json` file must include the following fields:
 ## Rules and Guidelines
 
 - **Node Image**: 
-  - The `nodeImg` URL must point to a valid image hosted at your node’s domain.
   - Ensure the image adheres to community guidelines (e.g., no explicit content).
 - **Node Requirements**: 
   - The node must be running the Lascaux backend with a valid SSL certificate.

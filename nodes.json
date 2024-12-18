@@ -2,7 +2,7 @@
     {
         "nodeURL": "https://testnetv1.telestai.io",
         "nodeName": "Lascaux v3",
-        "nodeImg": "https://www.telestai.io/_next/image?url=%2FTelestai-ICN-GOLD.png&w=256&q=75",
+        "nodeImg": "/images/Telestai.png",
         "nodeWallet": "TesBmcgLQsowvYEYPXpSHkkapoTbVV7Xfe",
         "nodeDescription": "Main testnet node maintained by the core team."
     }

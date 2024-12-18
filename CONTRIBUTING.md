@@ -15,21 +15,24 @@ git clone https://github.com/your-username/lascaux-nodes.git
 cd lascaux-nodes
 ```
 
-### 2. **Add Your Node**
+### 2. **Add Your Node Logo**
+Add a logo to the `images` folder.
+
+### 3. **Add Your Node Information**
 Edit the `nodes.json` file and add your node’s information in the required format:
 
 ```json
 {
     "nodeURL": "https://your-node-domain.com",
     "nodeName": "Your Node Name",
-    "nodeImg": "https://your-node-domain.com/logo.png",
+    "nodeImg": "/images/YourNodeLogo.png",
     "nodeWallet": "YourTLSWalletAddress",
     "nodeDescription": "A brief description of your node."
 }
 ```
 
 Ensure that:
-- **`nodeImg`**: The image is hosted at your node’s domain and meets community standards.
+- **`nodeImg`**: The image meets community standards.
 - **`nodeWallet`**: The wallet address is accurate, as it may be used for future rewards.
 - **`status`**: Currently, only public nodes are supported. Mark your node as `"public"`.
 
