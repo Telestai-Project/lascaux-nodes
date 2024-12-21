@@ -5,5 +5,12 @@
         "nodeImg": "/images/Telestai.png",
         "nodeWallet": "TesBmcgLQsowvYEYPXpSHkkapoTbVV7Xfe",
         "nodeDescription": "Main testnet node maintained by the core team."
+    },
+    {
+        "nodeURL": "https://miner-world.com/",
+        "nodeName": "Miner World",
+        "nodeImg": "/images/minerworld.png",
+        "nodeWallet": "TnNcyomeEmZJQuRW5TcnASZQDwLa17mQpH",
+        "nodeDescription": "Welcome to the swamp!"
     }
 ]
