@@ -7,7 +7,7 @@
         "nodeDescription": "Main testnet node maintained by the core team."
     },
     {
-        "nodeURL": "https://miner-world.com/",
+        "nodeURL": "https://miner-world.com",
         "nodeName": "Miner World",
         "nodeImg": "/images/minerworld.png",
         "nodeWallet": "TnNcyomeEmZJQuRW5TcnASZQDwLa17mQpH",
