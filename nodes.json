@@ -1,16 +1,6 @@
-[
-    {
-        "nodeURL": "https://testnetv1.telestai.io",
-        "nodeName": "Lascaux v3",
-        "nodeImg": "/images/Telestai.png",
-        "nodeWallet": "TesBmcgLQsowvYEYPXpSHkkapoTbVV7Xfe",
-        "nodeDescription": "Main testnet node maintained by the core team."
-    },
-    {
-        "nodeURL": "https://miner-world.com",
-        "nodeName": "Miner World",
-        "nodeImg": "/images/minerworld.png",
-        "nodeWallet": "TnNcyomeEmZJQuRW5TcnASZQDwLa17mQpH",
-        "nodeDescription": "Welcome to the swamp!"
-    }
-]
+{
+    "nodeURL": "https://example-node.telestai.io",
+    "nodeName": "brumae",
+    "nodeWallet": "Tf4wVRov292Vzem7Z12xj5XJLx26Xu2m1A",
+    "nodeDescription": "Node brumae: A place of tranquility."
+}
