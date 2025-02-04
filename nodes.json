@@ -1,16 +1,16 @@
 [
     {
         "nodeURL": "https://testnetv1.telestai.io",
-        "nodeName": "Lascaux v3",
+        "nodeName": "Lasko",
         "nodeImg": "/images/Telestai.png",
         "nodeWallet": "TesBmcgLQsowvYEYPXpSHkkapoTbVV7Xfe",
-        "nodeDescription": "Main testnet node maintained by the core team."
+        "nodeDescription": "Main node maintained by the core team."
     },
     {
         "nodeURL": "https://miner-world.com",
         "nodeName": "Miner World",
         "nodeImg": "/images/minerworld.png",
         "nodeWallet": "TnNcyomeEmZJQuRW5TcnASZQDwLa17mQpH",
-        "nodeDescription": "Community created Lascaux v3 node"
+        "nodeDescription": "Community created Lasko v3 node"
     }
 ]
